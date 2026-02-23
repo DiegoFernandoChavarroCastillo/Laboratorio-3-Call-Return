@@ -42,10 +42,17 @@ Este componente permite descomponer una URL para identificar sus partes fundamen
     ```bash
     java -cp . ejercicio1.URLInfo
     ```
-
 ### 2. Cliente de Descarga (`SimpleBrowser`)
 Un cliente HTTP básico que solicita el contenido HTML de una dirección web y lo almacena localmente en un archivo llamado `resultado.html`.
 *   **Ejecución:**
     ```bash
     java -cp . ejercicio2.SimpleBrowser
     ```
+### 3. Servidores de Procesamiento Matemático (`Sockets`)
+Implementación de una arquitectura Cliente-Servidor clásica utilizando el protocolo TCP. El servidor procesa datos numéricos (cuadrados y funciones trigonométricas) y retorna los resultados al cliente.
+*   **Servidor de Cuadrados (Puerto 35001):**
+    1. Iniciar servidor: `java -cp . ejercicio3_4.SquareServer`
+    2. Iniciar cliente: `java -cp . ejercicio3_4.SquareClient`
+*   **Servidor Trigonométrico (Puerto 35002):**
+    1. Iniciar servidor: `java -cp . ejercicio3_4.TrigServer`
+    2. Iniciar cliente: `java -cp . ejercicio3_4.TrigClient` (Permite cambiar funciones con `fun:sin` o `fun:tan`).
