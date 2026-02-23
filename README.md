@@ -42,3 +42,11 @@ Este componente permite descomponer una URL para identificar sus partes fundamen
     ```bash
     java -cp . ejercicio1.URLInfo
     ```
+### 3. Servidores de Procesamiento Matemático (`Sockets`)
+Implementación de una arquitectura Cliente-Servidor clásica utilizando el protocolo TCP. El servidor procesa datos numéricos (cuadrados y funciones trigonométricas) y retorna los resultados al cliente.
+*   **Servidor de Cuadrados (Puerto 35001):**
+    1. Iniciar servidor: `java -cp . ejercicio3_4.SquareServer`
+    2. Iniciar cliente: `java -cp . ejercicio3_4.SquareClient`
+*   **Servidor Trigonométrico (Puerto 35002):**
+    1. Iniciar servidor: `java -cp . ejercicio3_4.TrigServer`
+    2. Iniciar cliente: `java -cp . ejercicio3_4.TrigClient` (Permite cambiar funciones con `fun:sin` o `fun:tan`).
