@@ -56,3 +56,9 @@ Implementación de una arquitectura Cliente-Servidor clásica utilizando el prot
 *   **Servidor Trigonométrico (Puerto 35002):**
     1. Iniciar servidor: `java -cp . ejercicio3_4.TrigServer`
     2. Iniciar cliente: `java -cp . ejercicio3_4.TrigClient` (Permite cambiar funciones con `fun:sin` o `fun:tan`).
+
+### 4. Servidor Web Estático (`HttpServer`)
+Servidor HTTP capaz de gestionar múltiples solicitudes y servir recursos estáticos (HTML e imágenes) desde el directorio `www/`.
+*   **Ejecución (Puerto 35010):**
+    1. Iniciar servidor: `java -cp . rmi.pruebas.HttpServer`
+    2. Acceso vía navegador: `http://localhost:35010/index.html`
