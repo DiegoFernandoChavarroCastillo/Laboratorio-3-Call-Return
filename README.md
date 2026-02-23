@@ -42,3 +42,10 @@ Este componente permite descomponer una URL para identificar sus partes fundamen
     ```bash
     java -cp . ejercicio1.URLInfo
     ```
+
+### 2. Cliente de Descarga (`SimpleBrowser`)
+Un cliente HTTP básico que solicita el contenido HTML de una dirección web y lo almacena localmente en un archivo llamado `resultado.html`.
+*   **Ejecución:**
+    ```bash
+    java -cp . ejercicio2.SimpleBrowser
+    ```
